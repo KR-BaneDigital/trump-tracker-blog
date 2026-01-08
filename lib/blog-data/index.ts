@@ -8,9 +8,11 @@ import { post as kai_trump_s_wrist_surgery_a_journey_from_injury_to_resilienc } 
 import { post as swinging_with_the_stars_trump_s_florida_golf_partners_reveal } from './swinging-with-the-stars-trump-s-florida-golf-partners-reveal.data'
 import { post as kai_trump_s_wrist_surgery_the_comeback_story_you_don_t_want_ } from './kai-trump-s-wrist-surgery-the-comeback-story-you-don-t-want-.data'
 import { post as how_long_will_she_be_unable_to_play_golf_a_game_changing_upd } from './how-long-will-she-be-unable-to-play-golf-a-game-changing-upd.data'
+import { post as stay_ahead_of_the_curve_why_trump_breaking_news_is_a_game_ch } from './stay-ahead-of-the-curve-why-trump-breaking-news-is-a-game-ch.data'
 
 // Export all posts (newest first)
 export const allPosts = [
+  stay_ahead_of_the_curve_why_trump_breaking_news_is_a_game_ch,
   how_long_will_she_be_unable_to_play_golf_a_game_changing_upd,
   kai_trump_s_wrist_surgery_the_comeback_story_you_don_t_want_,
   swinging_with_the_stars_trump_s_florida_golf_partners_reveal,
