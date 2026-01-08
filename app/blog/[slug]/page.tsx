@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       type: "article",
       publishedTime: post.date,
       authors: [post.author.name],
-      // NO images in OpenGraph (Glamsphere pattern)
+      ...(imageUrl && { images: [{ url: imageUrl }] }),  // ✅ Social preview images for Discord/Facebook
     },
     twitter: {
       card: "summary_large_image",
