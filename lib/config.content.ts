@@ -109,15 +109,15 @@ export const siteContent: SiteConfigSchema = {
 export const colorContent: ColorConfigSchema = {
   // Light mode colors
   light: {
-    primary: "#2563EB",      // #2563EB
-    secondary: "#64748B",  // #64748B
-    accent: "#F59E0B"         // #F59E0B
+    primary: "#1A73E8",
+    secondary: "#FFFFFF",
+    accent: "#FF4500"
   },
 
   // Dark mode colors (auto-lightened for contrast)
   dark: {
-    primary: "#2563EB",
-    secondary: "#64748B",
-    accent: "#F59E0B"
+    primary: "#1A73E8",
+    secondary: "#FFFFFF",
+    accent: "#FF4500"
   }
 }
