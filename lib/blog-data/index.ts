@@ -10,9 +10,11 @@ import { post as how_a_rare_snail_could_snail_mail_trump_s_doonbeg_dreams } from
 import { post as waiting_for_snails_how_trump_s_doonbeg_resort_is_slowing_dow } from './waiting-for-snails-how-trump-s-doonbeg-resort-is-slowing-dow.data'
 import { post as senate_s_bold_move_limiting_trump_s_military_power_in_venezu } from './senate-s-bold-move-limiting-trump-s-military-power-in-venezu.data'
 import { post as phil_mickelson_s_bold_take_trump_s_fraud_claims_vs_californi } from './phil-mickelson-s-bold-take-trump-s-fraud-claims-vs-californi.data'
+import { post as stay_ahead_of_the_game_how_trump_breaking_news_keeps_you_inf } from './stay-ahead-of-the-game-how-trump-breaking-news-keeps-you-inf.data'
 
 // Export all posts (newest first)
 export const allPosts = [
+  stay_ahead_of_the_game_how_trump_breaking_news_keeps_you_inf,
   phil_mickelson_s_bold_take_trump_s_fraud_claims_vs_californi,
   senate_s_bold_move_limiting_trump_s_military_power_in_venezu,
   waiting_for_snails_how_trump_s_doonbeg_resort_is_slowing_dow,
