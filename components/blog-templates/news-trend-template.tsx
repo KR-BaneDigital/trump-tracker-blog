@@ -36,11 +36,6 @@ export function NewsTrendTemplate({ post }: NewsTrendTemplateProps) {
               <p className="mb-8 text-xl leading-relaxed text-muted-foreground lg:text-2xl">
                 {post.excerpt}
               </p>
-
-              <div className="flex items-center gap-2 text-sm font-medium text-foreground">
-                <span>Read the full analysis</span>
-                <ArrowRight className="size-4" />
-              </div>
             </div>
 
             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl">
@@ -185,12 +180,9 @@ export function NewsTrendTemplate({ post }: NewsTrendTemplateProps) {
                     <p className="mb-4 text-xl italic leading-relaxed text-foreground">
                       "{expert.quote}"
                     </p>
-                    <div className="flex items-center gap-4">
-                      <div className="size-12 rounded-full bg-foreground/10" />
-                      <div>
-                        <p className="font-semibold text-foreground">{expert.name}</p>
-                        <p className="text-sm text-muted-foreground">{expert.title}</p>
-                      </div>
+                    <div>
+                      <p className="font-semibold text-foreground">{expert.name}</p>
+                      <p className="text-sm text-muted-foreground">{expert.title}</p>
                     </div>
                   </div>
                 ))}
